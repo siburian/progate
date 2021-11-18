@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Keania+One&family=Montserrat:wght@100&family=Poppins:wght@100&family=Qahiri&family=Zen+Antique+Soft&family=Zen+Old+Mincho&display=swap");
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+.text h3 {
+  position: absolute;
+  width: 392px;
+  height: 201px;
+  left: 93px;
+  top: 183px;
+  margin: 10px 0px 0px 10px;
+  font-family: "Montserrat";
+  font-size: 55px;
+}
+.text p {
+  position: absolute;
+  width: 344px;
+  height: 60px;
+  margin: 398px 0px 0px 110px;
+  font-family: "Montserrat";
+  font-size: 16px;
+  line-height: 20px;
+}
+.text button {
+  position: absolute;
+  width: 115px;
+  height: 38px;
+  left: 93px;
+  top: 513px;
+
+  background: #515dd9;
+  border-radius: 12px;
+}
+img {
+  display: flex;
+  float: right;
+  margin-top: 160px;
+  margin-right: 50px;
+}
+
+@media only screen and (max-width: 600px) {
+  .text h3 {
+    position: absolute;
+    width: 392px;
+    height: 201px;
+    left: 93px;
+    top: 183px;
+    font-family: "Montserrat";
+    font-weight: bold;
+    font-size: 10px;
+  }
+}
