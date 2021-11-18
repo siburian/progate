@@ -100,16 +100,16 @@ section .content {
   margin: 40px auto;
   font-family: "Poppins", sans-serif;
 }
-.about .about-details {
+.home .about-details {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-.about .about-details .right {
+.home .about-details .right {
   width: 45%;
 }
-.about .right img {
+.home .right img {
   height: 400px;
   width: 400px;
   object-fit: cover;
@@ -149,11 +149,11 @@ section .content {
   }
 }
 @media (max-width: 1000px) {
-  .about .about-details {
+  .home .about-details {
     justify-content: center;
     flex-direction: column;
   }
-  .about .about-details .right {
+  .home .about-details .right {
     display: flex;
     justify-content: center;
     width: 100%;
@@ -164,7 +164,7 @@ section .content {
   }
 }
 @media (max-width: 900px) {
-  .about .right img {
+  .home .right img {
     height: 350px;
     width: 350px;
   }
