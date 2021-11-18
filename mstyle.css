@@ -10,6 +10,9 @@ nav {
   height: 80px;
   width: 100%;
 }
+label i {
+  color: #515dd9;
+}
 label.logo {
   display: none;
 }
